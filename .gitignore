@@ -1,0 +1,14 @@
+._*
+.DS_Store
+.vscode
+
+/apis_locals
+/apis_remote
+/backups
+/reference
+/reference_pages
+/templates
+/test_pages
+/create_database_sql_scripts.txt
+/vendor
+

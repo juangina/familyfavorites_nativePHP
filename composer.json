@@ -1,0 +1,7 @@
+{
+    "require": {
+        "csanquer/pdo-service-provider": "~1.1dev",
+        "stripe/stripe-php": "^7.67",
+        "twig/twig": "3.0"
+    }
+}
