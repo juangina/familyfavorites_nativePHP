@@ -40,10 +40,10 @@
 
       /* Database credentials */
       if ($local == True) {
-        define('DB_SERVER', 'localhost');
-        define('DB_USERNAME', 'postgres');
-        define('DB_PASSWORD', 'mySQLdb03');
-        define('DB_NAME', 'postgres');
+        define('DB_SERVER', '');
+        define('DB_USERNAME', '');
+        define('DB_PASSWORD', '');
+        define('DB_NAME', '');
       }
       else {
         $db = parse_url(getenv("DATABASE_URL"));
@@ -81,10 +81,10 @@
         $mail = new PHPMailer;          
         // SMTP configuration
         $mail->isSMTP();
-        $mail->Host     = 'in-v3.mailjet.com';
+        $mail->Host     = '';
         $mail->SMTPAuth = true;
-        $mail->Username = 'f6fd294a103a7c7c3a78ef8944c0b93a';       
-        $mail->Password = '8a474f26e541b5d97c795b13f8fbbbb1';
+        $mail->Username = '';       
+        $mail->Password = '';
         //$_SESSION["debug"] = $mail->Password;
         $mail->SMTPSecure = 'tls';
         $mail->Port     = 587;
